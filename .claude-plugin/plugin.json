@@ -1,0 +1,10 @@
+{
+  "name": "orbit",
+  "version": "0.1.0",
+  "description": "See and steer Amp orbs: a constellation pane, toasts, and orb tools for Claude",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "notify": { "type": "boolean", "title": "Notify on failures and new PRs", "description": "A macOS notification when a long-running orb fails or opens a PR", "default": true },
+    "notifyAfter": { "type": "number", "title": "Notify threshold (minutes)", "description": "Only orbs at least this many minutes old send a macOS notification", "default": 5 }
+  }
+}
