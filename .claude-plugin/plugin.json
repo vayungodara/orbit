@@ -1,7 +1,7 @@
 {
   "name": "orbit",
   "version": "0.1.0",
-  "description": "See and steer Amp orbs: a constellation pane, toasts, and orb tools for Claude",
+  "description": "See your Amp orbs in Claude Code and let Claude start and steer them",
   "types": "./types/index.d.ts",
   "userConfig": {
     "notify": { "type": "boolean", "title": "Notify on failures and new PRs", "description": "A macOS notification when a long-running orb fails or opens a PR", "default": true },
